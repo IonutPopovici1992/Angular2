@@ -1,0 +1,8 @@
+<h1>{{ title }}</h1>
+
+<img [src]="imageUrl">
+<img bind-src="imageUrl" (click)='myMethod($event)'>
+<img bind-src="imageUrl" on-mouseover='myMethod2()'>
+
+<input (keyup)='userInput($event)'>
+<p>{{ myType }}</p>

@@ -17,4 +17,5 @@ export class AppComponent {
 	ngOnInit() {
 		this.title = this._exampleService.someMethod();
 	}
+
 }
