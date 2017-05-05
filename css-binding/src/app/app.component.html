@@ -1,0 +1,8 @@
+<h1>{{ title }}</h1>
+
+<button class="my-btn" [class.extraclass]="someProperty">Call to Action</button>
+<button class="my-btn" [style.border]="someProperty ? '5px solid yellow' : 'none' ">Call to Action</button>
+<br>
+<br>
+<button class="my-btn" [ngClass]="setClasses()">Call to Action</button>
+<button class="my-btn" [ngStyle]="setStyles()">Call to Action</button>
