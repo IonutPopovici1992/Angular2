@@ -1,0 +1,12 @@
+button {
+    background: lightgrey;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 1.8em;
+    line-height: 1.5;
+}
+
+#content {
+    background: #EEEEEE;
+    padding: 30px;
+}
